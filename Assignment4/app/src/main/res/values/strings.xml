@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Potholes</string>
+
+    <string name="info_error_title">Error</string>
+    <string name="network_error_message">Network is unavailable. Please try later.</string>
+
+    <string name="post_error_title">Error</string>
+    <string name="post_error_message">Posting is unsuccessful. </string>
+    <string name="post_success_title">Success</string>
+    <string name="post_success_message">Posting is successful.</string>
+
+    <string name="submit">Submit</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+    <string name="continue_post">Continue</string>
+
+    <string name="load_potholes">Loading potholes...</string>
+    <string name="load_info">Loading information...</string>
+    <string name="load_categories">Loading categories...</string>
+    <string name="submit_info">Posting Data...</string>
+
+    <string name="upload_image">Upload Image</string>
+
+    <string name="latitude">Latitude:</string>
+    <string name="longitude">Longitude:</string>
+    <string name="username">Created on:</string>
+    <string name="description">Description:</string>
+    <string name="writeDescription">Write Description About Pothole (max. 300 letters)</string>
+
+    <string name="getNext">Next</string>
+    <string name="getBack">Back</string>
+    <string name="back_message">No more data to show</string>
+
+    <string name="goToMap">Go to MapView</string>
+
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_region_map">Map</string>
+    <string name="google_app_id">28189914105</string>
+
+    <string name="report_type_error">Can only submit \"street\" data at present.. Sorry..</string>
+    <string name="title">Welcome to San Diego County\n \"Pothole Reporting\" site!!</string>
+    <string name="report_new_pothole">Report a new\nPothole</string>
+    <string name="see_submissions">See your\nSubmissions</string>
+    <string name="list_of_all">Get the list\nof all Potholes</string>
+    <string name="map_of_all">Map of Potholes\nin SanDiego</string>
+
+</resources>
+

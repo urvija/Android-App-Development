@@ -1,0 +1,80 @@
+<resources>
+
+    <string name="app_name">CoolCab</string>
+    <string name="network_error">Network unavailable. Please connect to network.</string>
+
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Password</string>
+    <string name="password_min_char_hint">Password (min 6 characters)</string>
+    <string name="password_length_error_message">Password cannot be less then 6 characters</string>
+
+    <string name="login_error_title">Error!</string>
+    <string name="login_button_label">Sign In</string>
+    <string name="login_error_message">Please make sure you enter an Email Address and
+        Password!</string>
+
+    <string name="sign_up_error_title">Error!</string>
+    <string name="sign_up_button_label">Sign Up</string>
+    <string name="sign_up_error_message">Please make sure you enter an Email Address and
+        Password!</string>
+    <string name="sign_up_success">Account successfully created! You can now Login.</string>
+    <string name="sign_up_text">Sign Up!</string>
+
+    <string name="account_exists">Already have an account? Sign in!</string>
+    <string name="ok">OK</string>
+
+    <string name="next">Next</string>
+    <string name="cancel_reservation">Cancel Reservation</string>
+    <string name="action_logout">Logout</string>
+    <string name="log_out_message">Successfully Logged Out!!</string>
+    <string name="reserve">Reserve</string>
+
+    <string name="hint_start_address">Pick up location</string>
+    <string name="hint_end_address">Drop off location</string>
+    <string name="hint_end_zip">Drop location zip</string>
+    <string name="hint_start_zip">Pick up location zip</string>
+    <string name="select_trip">Select Trip Type:</string>
+    <string name="one_way_trip">One way</string>
+    <string name="round_trip">Round Trip</string>
+    <string name="select_ride">Select Your Ride:</string>
+    <string name="economy">Economy</string>
+    <string name="premium">Premium</string>
+    <string name="limousine">Limousine</string>
+
+    <string name="address_error">Please enter valid address</string>
+    <string name="zip_error">Please enter valid zip</string>
+    <string name="address_not_found_error">Unable to find distance. Please enter valid addresses</string>
+    <string name="error">Error!</string>
+
+    <string name="total_distance">Total Distance</string>
+    <string name="estimated_fare">Estimated Fare</string>
+    <string name="passengers">Passengers</string>
+    <string-array name="passenger_array">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string name="set_date">Select Date</string>
+    <string name="set_time">Select Time</string>
+    <string name="date_error">Please select valid date</string>
+    <string name="time_error">Please select valid time</string>
+    <string name="time_error_threshold">Please select 30 minutes after current time</string>
+
+    <string name="first_name">First Name</string>
+    <string name="first_name_error_message">Please provide First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="last_name_error_message">Please provide Last Name</string>
+    <string name="phone">Phone</string>
+    <string name="phone_error">Please enter valid phone number</string>
+
+    <string name="progress_message">Processing...</string>
+    <string name="reservation_confirmation">Reservation Confirmed</string>
+    <string name="cancel_reservation_error_title">Error!</string>
+    <string name="cancel_reservation_error_message">No More Reservations to Cancel</string>
+    <string name="cancel_reservation_success_title">Success</string>
+    <string name="cancel_reservation_success_message">Reservation Cancelled Successfully.</string>
+    <string name="reservation_success_title">Success!</string>
+    <string name="reservation_success_message">The Cab has been Reserved Successfully.</string>
+
+</resources>

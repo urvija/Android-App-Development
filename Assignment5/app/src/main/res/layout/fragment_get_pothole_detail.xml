@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/scrollView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true"
+            android:isScrollContainer="true" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/potholeImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:paddingLeft="15dp"/>
+
+        <TextView
+            android:id="@+id/latitudeDisplay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/potholeImage"
+            android:text="@string/latitude"
+            android:textColor="@android:color/black"
+            android:paddingLeft="15dp"
+            android:paddingTop="20dp"/>
+
+        <TextView
+            android:id="@+id/latitudeValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/potholeImage"
+            android:layout_toRightOf="@id/latitudeDisplay"
+            android:textColor="@android:color/black"
+            android:paddingLeft="15dp"
+            android:paddingTop="20dp"/>
+
+        <TextView
+            android:id="@+id/longitudeDisplay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/latitudeDisplay"
+            android:paddingLeft="15dp"
+            android:paddingTop="20dp"
+            android:text="@string/longitude"
+            android:textColor="@android:color/black"/>
+
+        <TextView
+            android:id="@+id/longitudeValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/latitudeDisplay"
+            android:layout_toRightOf="@id/longitudeDisplay"
+            android:textColor="@android:color/black"
+            android:paddingLeft="15dp"
+            android:paddingTop="20dp"/>
+
+        <TextView
+            android:id="@+id/userName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/longitudeDisplay"
+            android:paddingLeft="15dp"
+            android:paddingTop="20dp"
+            android:text="@string/username"
+            android:textColor="@android:color/black"/>
+
+        <TextView
+            android:id="@+id/userValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/longitudeDisplay"
+            android:layout_toRightOf="@id/userName"
+            android:layout_alignParentRight="true"
+            android:textColor="@android:color/black"
+            android:paddingLeft="15dp"
+            android:paddingTop="20dp"/>
+
+        <TextView
+            android:id="@+id/descriptionDisplay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/userName"
+            android:paddingLeft="15dp"
+            android:paddingTop="20dp"
+            android:text="@string/description"
+            android:textColor="@android:color/black"/>
+
+        <TextView
+            android:id="@+id/descriptionValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/userName"
+            android:layout_toRightOf="@id/descriptionDisplay"
+            android:textColor="@android:color/black"
+            android:paddingLeft="15dp"
+            android:paddingTop="20dp"/>
+
+    </RelativeLayout>
+
+</ScrollView>

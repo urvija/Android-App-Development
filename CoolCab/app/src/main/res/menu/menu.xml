@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_reserve"
+        android:title="@string/next"
+        android:showAsAction="always"/>
+    <item
+        android:id="@+id/action_cancel_reservation"
+        android:title="@string/cancel_reservation"
+        android:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_logout"
+        android:title="@string/action_logout"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+
+</menu>

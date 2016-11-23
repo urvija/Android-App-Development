@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/scrollView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true"
+            android:isScrollContainer="true" >
+
+    <RelativeLayout android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/pickUpAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:ems="15"
+            android:hint="@string/hint_start_address">
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/pickUpZip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/pickUpAddress"
+            android:layout_marginTop="15dp"
+            android:ems="15"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:hint="@string/hint_start_zip"
+            android:inputType="number"
+            android:maxLength="5" />
+
+        <EditText
+            android:id="@+id/dropOffAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/pickUpZip"
+            android:layout_marginTop="15dp"
+            android:ems="15"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:hint="@string/hint_end_address"
+            android:lines="1"
+            android:maxLines="1"
+            android:singleLine="true" />
+
+        <EditText
+            android:id="@+id/dropOffZip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/dropOffAddress"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="20dp"
+            android:ems="15"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:hint="@string/hint_end_zip"
+            android:inputType="number"
+            android:lines="1"
+            android:maxLength="5"
+            android:maxLines="1"
+            android:singleLine="true" />
+
+        <TextView
+            android:id="@+id/tripTypeText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/dropOffZip"
+            android:text="@string/select_trip"
+            android:layout_marginTop="15dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_centerVertical="true"
+            android:layout_alignLeft="@+id/radioTrip"
+            android:layout_alignStart="@+id/radioTrip"/>
+
+        <RadioGroup
+            android:id="@+id/radioTrip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/dropOffZip"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="45dp"
+            android:layout_marginBottom="20dp"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/oneWayTrip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="@string/one_way_trip"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/roundTrip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:text="@string/round_trip"
+                android:textSize="20sp" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/carTypeText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/radioTrip"
+            android:text="@string/select_ride"
+            android:layout_marginTop="15dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_centerVertical="true"
+            android:layout_alignLeft="@+id/radioTrip"
+            android:layout_alignStart="@+id/radioTrip"/>
+
+        <RadioGroup
+            android:id="@+id/radioRide"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/dropOffAddress"
+            android:layout_below="@id/carTypeText"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp">
+
+            <RadioButton
+                android:id="@+id/economy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="@string/economy"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/premium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/premium"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/limousine"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/limousine"
+                android:textSize="20sp" />
+        </RadioGroup>
+
+    </RelativeLayout>
+</ScrollView>

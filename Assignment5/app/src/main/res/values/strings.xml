@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Assignment5</string>
+
+    <string name="info_error_title">Error</string>
+    <string name="network_error_message">Network is unavailable. Please try later.</string>
+
+    <string name="load_potholes">Loading potholes...</string>
+    <string name="load_info">Loading information...</string>
+    <string name="back_message">No more data to show</string>
+
+    <string name="latitude">Latitude:</string>
+    <string name="longitude">Longitude:</string>
+    <string name="username">Created on:</string>
+    <string name="description">Description:</string>
+
+    <string name="getNext">Next</string>
+    <string name="getBack">Back</string>
+    <string name="ok">OK</string>
+
+    <string name="title">Welcome to San Diego County\n \"Pothole Reporting\" site!!</string>
+    <string name="see_submissions">See your\nSubmissions</string>
+    <string name="list_of_all">Get the list\nof all Potholes</string>
+    <string name="title_pothole_list">PotHoles</string>
+    <string name="title_pothole_detail">PotHole Detail</string>
+
+</resources>

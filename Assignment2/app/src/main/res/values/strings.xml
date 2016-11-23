@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">Assignment2</string>
+
+    <string name="enter_name">Enter Name</string>
+    <string name="enter_email_address">Enter Email address</string>
+    <string name="enter_phone_number">Enter Phone Number</string>
+    <string name="hide">Hide</string>
+    <string name="back">Back</string>
+
+    <string name="time_is_set">Time is set</string>
+    <string name="confirm_time_title">Confirm Time</string>
+    <string name="confirm_time_message">Do you want to save %1$d:%2$d %3$s ?</string>
+    <string name="set_time">Set Time</string>
+
+    <string name="time_activity">Time Activity</string>
+    <string name="list_activity">List Activity</string>
+    <string name="keyboard_activity">Keyboard Activity</string>
+    <string name="navigate">Navigate</string>
+
+    <string name="no_data">No Data</string>
+
+    <string-array name="activity_array">
+        <item>Time Activity</item>
+        <item>Keyboard Activity</item>
+        <item>List Activity</item>
+    </string-array>
+
+    <string-array name="country_array">
+        <item>India</item>
+        <item>USA</item>
+        <item>Mexico</item>
+    </string-array>
+
+    <string-array name="sports_array_india">
+        <item>Cricket</item>
+        <item>Chess</item>
+        <item>Badminton</item>
+        <item>Field Hockey</item>
+        <item>Football</item>
+        <item>Tennis</item>
+        <item>Gilli-danda</item>
+        <item>Golf</item>
+    </string-array>
+
+    <string-array name="sports_array_usa">
+        <item>Baseball</item>
+        <item>Football</item>
+        <item>Hockey</item>
+        <item>Basketball</item>
+        <item>Soccer</item>
+        <item>Golf</item>
+        <item>Skateboarding</item>
+    </string-array>
+
+    <string-array name="sports_array_mexico">
+        <item>Football</item>
+        <item>Boxing</item>
+        <item>Baseball</item>
+        <item>Charreria</item>
+        <item>Bullfighting</item>
+        <item>Basque Pelota</item>
+    </string-array>
+
+</resources>

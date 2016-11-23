@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="cs646.assignment4.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/backgroundImage"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/skyline"
+        android:scaleType="fitXY"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title"
+        android:layout_centerHorizontal="true"
+        android:elegantTextHeight="true"
+        android:textAlignment="center"
+        android:layout_marginTop="40dp"
+        android:textSize="20sp"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:id="@+id/textView"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="270dp"
+        android:layout_centerHorizontal="true">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/reportNewPothole"
+            android:src="@drawable/images11"
+            android:clickable="true"
+            android:layout_marginRight="40dp"/>
+
+        <ImageView
+            android:id="@+id/requestUserList"
+            android:src="@drawable/imageswtw"
+            android:scaleType="fitXY"
+            android:clickable="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="350dp"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/report_new_pothole"
+            android:textAlignment="center"
+            android:id="@+id/reportNewPotholeText"
+            android:textColor="@color/font_color"
+            android:layout_marginRight="40dp"
+            android:clickable="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/see_submissions"
+            android:textAlignment="center"
+            android:id="@+id/requestUserListText"
+            android:textColor="@color/font_color"
+            android:clickable="true"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="390dp"
+        android:layout_centerHorizontal="true">
+
+        <ImageView
+            android:id="@+id/requestAllUserList"
+            android:src="@drawable/images"
+            android:scaleType="fitXY"
+            android:clickable="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="40dp"/>
+
+        <ImageView
+            android:id="@+id/requestAllUserMap"
+            android:src="@drawable/imagesmap"
+            android:scaleType="fitXY"
+            android:clickable="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="470dp"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/list_of_all"
+            android:textAlignment="center"
+            android:id="@+id/requestAllUserListText"
+            android:textColor="@color/font_color"
+            android:clickable="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/map_of_all"
+            android:textAlignment="center"
+            android:id="@+id/requestAllUserMapText"
+            android:textColor="@color/font_color"
+            android:layout_marginLeft="15dp"
+            android:clickable="true"/>
+    </LinearLayout>
+
+</RelativeLayout>
+
+

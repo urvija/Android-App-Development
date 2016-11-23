@@ -1,0 +1,14 @@
+<resources>
+
+    <string name="app_name">Assignment3</string>
+
+    <string name="Start">Start</string>
+    <string name="Pause">Pause</string>
+
+    <string name="exit">Exit</string>
+    <string name="exit_message">Are you sure you want to exit?</string>
+
+    <string name="bird_touches_boundary">Game Over, Touched Boundary!!</string>
+    <string name="game_over">Game Over!!</string>
+
+</resources>

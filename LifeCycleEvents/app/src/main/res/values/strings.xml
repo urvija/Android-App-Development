@@ -1,0 +1,14 @@
+<resources>
+
+    <string name="app_name">LifeCycleEvents</string>
+    <string name="clear_button">Clear</string>
+
+    <string name="on_create">onCreate</string>
+    <string name="on_start">onStart</string>
+    <string name="on_restart">onRestart</string>
+    <string name="on_pause">onPause</string>
+    <string name="on_save">onSaveInstanceState</string>
+    <string name="on_restore">onRestoreInstanceState</string>
+    <string name="on_resume">onResume</string>
+
+</resources>

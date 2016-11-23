@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/scrollView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true"
+            android:isScrollContainer="true" >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/totalDistanceLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="45dp"
+            android:text="@string/total_distance"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/totalMiles"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/totalDistanceLabel"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="50dp"
+            android:layout_toRightOf="@id/totalDistanceLabel"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/totalFareLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/totalDistanceLabel"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="35dp"
+            android:text="@string/estimated_fare"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/totalFare"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/totalFareLabel"
+            android:layout_marginLeft="50dp"
+            android:layout_toRightOf="@id/totalFareLabel"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/noOfPassengers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/totalFareLabel"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="35dp"
+            android:text="@string/passengers"
+            android:textSize="20sp"/>
+
+        <Spinner
+            android:id="@+id/noOfPassengersSpinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/noOfPassengers"
+            android:layout_alignLeft="@id/totalFare"
+            android:layout_toRightOf="@id/noOfPassengers"
+            android:spinnerMode="dropdown"/>
+
+        <Button
+            android:id="@+id/datePicker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:layout_marginTop="70dp"
+            android:background="@drawable/button"
+            android:layout_alignLeft="@id/noOfPassengers"
+            android:layout_below="@id/noOfPassengers"
+            android:text="@string/set_date"
+            android:textSize="15sp"/>
+
+        <TextView
+            android:id="@+id/selectedDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/datePicker"
+            android:layout_toRightOf="@id/datePicker"
+            android:layout_alignLeft="@id/totalFare"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/timePicker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/button"
+            android:layout_alignLeft="@id/datePicker"
+            android:layout_below="@id/datePicker"
+            android:text="@string/set_time"
+            android:textSize="15sp"/>
+
+        <TextView
+            android:id="@+id/selectedTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/timePicker"
+            android:layout_toRightOf="@id/timePicker"
+            android:layout_alignLeft="@id/selectedDate"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+
+</ScrollView>

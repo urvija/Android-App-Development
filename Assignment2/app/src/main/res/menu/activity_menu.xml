@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item android:id="@+id/time_activity"
+          android:title="@string/time_activity"
+          android:showAsAction="ifRoom"/>
+    <item android:id="@+id/keyboard_activity"
+          android:title="@string/keyboard_activity"
+          android:showAsAction="ifRoom" />
+    <item android:id="@+id/list_activity"
+          android:title="@string/list_activity"
+          android:showAsAction="ifRoom" />
+
+</menu>

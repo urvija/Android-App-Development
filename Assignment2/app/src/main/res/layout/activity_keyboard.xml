@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+             android:id="@+id/scrollView"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:fillViewport="true"
+             android:isScrollContainer="true" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="459dp" >
+
+        <EditText
+            android:id="@+id/bottomEditText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:hint="@string/enter_name"
+            android:inputType="text"
+            android:paddingBottom="10dp"
+            android:singleLine="true" />
+
+        <EditText
+            android:id="@+id/topEditText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/hideSetTimeButton"
+            android:layout_marginTop="19dp"
+            android:hint="@string/enter_email_address"
+            android:imeOptions="actionNext"
+            android:inputType="textEmailAddress"
+            android:nextFocusDown="@+id/middleEditText"
+            android:singleLine="true" />
+
+        <EditText
+            android:id="@+id/middleEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/enter_phone_number"
+            android:nextFocusDown="@+id/bottomEditText"
+            android:singleLine="true"
+            android:imeOptions="actionNext"
+            android:inputType="number"
+            android:layout_centerVertical="true"
+            android:layout_alignParentStart="true"/>
+
+        <Button
+            android:id="@+id/hideSetTimeButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="45dp"
+            android:layout_marginTop="14dp"
+            android:text="@string/hide" />
+
+        <Button
+            android:id="@+id/backSetTimeButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/topEditText"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="45dp"
+            android:text="@string/back" />
+
+    </RelativeLayout>
+
+</ScrollView>

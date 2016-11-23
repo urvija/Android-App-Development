@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_id": "potholes-79cea",
+    "project_number": "28189914105",
+    "name": "Potholes"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:28189914105:android:31a8c076ab741f57",
+        "client_id": "android:cs646.assignment4",
+        "client_type": 1,
+        "android_client_info": {
+          "package_name": "cs646.assignment4",
+          "certificate_hash": []
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "28189914105-3qef422dcpj0ojs85snatarc0i4480pv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "cs646.assignment4",
+            "certificate_hash": "6E1EC276A50C99D4A85BA0FA84BC94CE9F965764"
+          }
+        },
+        {
+          "client_id": "28189914105-vsqjb1utlmof4o4ed3auuf43gdn780sl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "cloud_messaging_service": {
+          "status": 1,
+          "apns_config": []
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "google_signin_service": {
+          "status": 2
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "client_info": [],
+  "ARTIFACT_VERSION": "1"
+}
